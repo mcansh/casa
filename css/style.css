@@ -1,11 +1,21 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
 * {
   margin: 0px; }
 
 body {
-  font-family: "Lato"; }
+  font-family: "Lato";
+  width: 100vw; }
   body h1, body h2, body h3, body h4, body h5, body h6 {
     font-weight: 400; }
+
+a {
+  text-decoration: none; }
+
+.btn, nav .signin {
+  border: 2px solid white;
+  padding: 10px 40px;
+  border-radius: 60px; }
 
 nav {
   height: 70px;
@@ -38,10 +48,6 @@ nav {
     color: white;
     text-decoration: none;
     margin: 0 10px; }
-  nav .signin {
-    border: 2px solid white;
-    padding: 10px 40px;
-    border-radius: 60px; }
 
 header {
   z-index: -1;
@@ -67,21 +73,27 @@ header {
   width: 100vw;
   background-image: url(../img/ny-filtered.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: top center;
   position: absolute;
   color: white;
   text-align: center; }
+  header .btn, header nav .signin, nav header .signin {
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 40px;
+    background: #6BC281;
+    border: #6BC281;
+    color: white; }
 
 .why {
-  height: calc(100vh - 50px);
+  height: auto;
   margin-top: calc(75vh - 70px);
-  padding-top: 50px;
-  text-align: center;
-  background: peachpuff; }
+  padding: 50px 0;
+  text-align: center; }
   .why h2 {
     padding-bottom: 10px; }
   .why .reasons {
-    padding-top: 60px;
+    padding-top: 30px;
     width: 100vw;
     display: -webkit-box;
     display: -webkit-flex;
@@ -90,12 +102,126 @@ header {
     -webkit-flex-flow: row nowrap;
         -ms-flex-flow: row nowrap;
             flex-flow: row nowrap; }
-    .why .reasons .img {
-      height: 80px;
-      width: 785px;
-      background-image: url(../img/reasons.png);
-      background-color: white;
-      background-size: contain;
-      background-repeat: no-repeat; }
-    .why .reasons .reason h4 {
-      padding-bottom: 10px; }
+    .why .reasons .fa {
+      border: 2px solid #6BC281;
+      border-radius: 50%;
+      margin: 0 40px 20px 40px;
+      font-size: 36px;
+      padding: 10px;
+      color: #6BC281; }
+    .why .reasons .reason {
+      margin: 0 50px; }
+      .why .reasons .reason h4 {
+        padding-bottom: 10px; }
+
+.analytics {
+  padding: 20px 0 0 90px;
+  height: 350px;
+  background-image: url(../img/analytics.png);
+  background-size: contain;
+  background-color: #F9FAFB;
+  background-repeat: no-repeat;
+  background-position: bottom; }
+  .analytics h3 {
+    margin: 20px 0 30px 0;
+    width: 50%; }
+  .analytics .btn, .analytics nav .signin, nav .analytics .signin {
+    border: 2px solid #6BC281;
+    color: #6BC281; }
+
+.mission {
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 300px; }
+  .mission h2 {
+    margin: 20px 0 80px 0; }
+  .mission h3 {
+    max-width: 70%;
+    margin-bottom: 20px; }
+
+.letsgo {
+  height: 300px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 100px;
+  color: white;
+  background-image: url(../img/ny-filtered.jpg);
+  background-size: cover;
+  background-position: bottom center; }
+  .letsgo h1 {
+    margin-top: 20px;
+    font-size: 2em; }
+  .letsgo .btn, .letsgo nav .signin, nav .letsgo .signin {
+    background: #6BC281;
+    color: white;
+    border: #6BC281;
+    margin-top: 20px;
+    text-transform: uppercase; }
+
+.milli {
+  background: #2B2C2D;
+  color: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 0;
+  margin-top: -2px; }
+  .milli a {
+    color: #6BC281;
+    text-decoration: underline; }
+
+footer {
+  width: 100vw;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 20px 60px; }
+  footer .col-1 {
+    width: 33%; }
+    footer .col-1 ul {
+      list-style: none;
+      margin: 0; }
+      footer .col-1 ul li {
+        margin: 10px 0; }

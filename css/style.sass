@@ -1,12 +1,25 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700)
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css)
+
+$green: #6BC281
+$background: #F9FAFB
+$milli-bg: #2B2C2D
 
 *
   margin: 0px
 
 body
   font-family: "Lato"
+  width: 100vw
   h1,h2,h3,h4,h5,h6
     font-weight: 400
+a
+  text-decoration: none
+
+.btn
+  border: 2px solid white
+  padding: 10px 40px
+  border-radius: 60px
 
 nav
   height: 70px
@@ -28,9 +41,7 @@ nav
     text-decoration: none
     margin: 0 10px
   .signin
-    border: 2px solid white
-    padding: 10px 40px
-    border-radius: 60px
+    @extend .btn
 
 header
   z-index: -1
@@ -44,33 +55,117 @@ header
   background:
     image: url(../img/ny-filtered.jpg)
     size: cover
-    position: center
+    position: top center
   position: absolute
   color: white
   text-align: center
+  .btn
+    text:
+      transform: uppercase
+      decoration: none
+    margin-top: 40px
+    background: $green
+    border: $green
+    color: white
 
 .why
-  height: calc(100vh - 50px)
+  height: auto
   margin-top: calc(75vh - 70px)
-  padding-top: 50px
+  padding: 50px 0
   text-align: center
-  background: peachpuff
   h2
     padding-bottom: 10px
 
   .reasons
-    padding-top: 60px
+    padding-top: 30px
     width: 100vw
     display: flex
     flex-flow: row nowrap
-    .img
-      height: 80px
-      width: 785px
-      background:
-        image: url(../img/reasons.png)
-        color: white
-        size: contain
-        repeat: no-repeat
+    .fa
+      border: 2px solid $green
+      border-radius: 50%
+      margin: 0 40px 20px 40px
+      font:
+        size: 36px
+      padding: 10px
+      color: $green
+
     .reason
+      margin: 0 50px
       h4
         padding-bottom: 10px
+
+.analytics
+  padding: 20px 0 0 90px
+  height: 350px
+  background:
+    image: url(../img/analytics.png)
+    size: contain
+    color: $background
+    repeat: no-repeat
+    position: bottom
+  h3
+    margin: 20px 0 30px 0
+    width: 50%
+  .btn
+    border: 2px solid $green
+    color: $green
+
+.mission
+  text-align: center
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  height: 300px
+  h2
+    margin: 20px 0 80px 0
+  h3
+    max-width: 70%
+    margin-bottom: 20px
+
+.letsgo
+  height: 300px
+  display: flex
+  flex-direction: column
+  align-items: center
+  padding-top: 100px
+  color: white
+  background:
+    image: url(../img/ny-filtered.jpg)
+    size: cover
+    position: bottom center
+  h1
+    margin-top: 20px
+    font-size: 2em
+  .btn
+    background: $green
+    color: white
+    border: $green
+    margin-top: 20px
+    text-transform: uppercase
+
+.milli
+  background: $milli-bg
+  color: white
+  display: flex
+  justify-content: center
+  align-items: center
+  padding: 30px 0
+  margin-top: -2px
+  a
+    color: $green
+    text-decoration: underline
+
+footer
+  width: 100vw
+  display: flex
+  flex-direction: row
+  margin: 20px 60px
+  .col-1
+    width: 33%
+    ul
+      list-style: none
+      margin: 0
+      li
+        margin: 10px 0
