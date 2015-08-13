@@ -21,32 +21,44 @@ a
   border: 2px solid white
   padding: 10px 40px
   border-radius: 60px
+  transition: .15s all ease-in-out
+  &:hover
+    border: 2px solid $green
+    color: $green
 
 nav
   height: 70px
+  position: absolute
+  width: 100%
   top: 0
-  z-index: 2
   display: flex
   justify-content: center
   align-items: center
-  padding: 0 20px
-  span
-    color: #ccc
-    font-size: 16px
-  strong
-    font-weight: 700
   .brand
     flex-grow: 1
-  a
-    color: white
-    text-decoration: none
-    margin: 0 10px
+    margin-left: 40px
+    span
+      color: #ccc
+      font-size: 16px
+    strong
+      font-weight: 700
+      color: white
+  .links
+    a
+      color: white
+      text-decoration: none
+      margin: 0 10px
+      transition: .15s all ease-in-out
+      &:hover
+        color: $green
   .signin
     @extend .btn
+    margin-right: 40px
+    &:hover
+      border: 2px solid $green
+      color: $green
 
 header
-  z-index: -1
-  margin-top: -70px
   display: flex
   justify-content: center
   align-items: center
@@ -57,21 +69,24 @@ header
     image: url(../img/ny-filtered.jpg)
     size: cover
     position: top center
-  position: absolute
   color: white
   text-align: center
   .btn
-    text:
-      transform: uppercase
-      decoration: none
-    margin-top: 40px
+    border: 2px solid $green
     background: $green
-    border: $green
+    padding: 10px 40px
+    border-radius: 60px
+    text-transform: uppercase
     color: white
+    margin-top: 50px
+    transition: .15s all ease-in-out
+    &:hover
+      border: 2px solid white
+      background: white
+      color: $green
 
 .why
   height: auto
-  margin-top: calc(75vh - 70px)
   padding: 50px 0
   text-align: center
   h2
@@ -111,6 +126,10 @@ header
   .btn
     border: 2px solid $green
     color: $green
+    transition: .15s all ease-in-out
+    &:hover
+      color: white
+      background: $green
 
 .mission
   text-align: center
@@ -142,9 +161,14 @@ header
   .btn
     background: $green
     color: white
-    border: $green
+    border: 2px solid $green
     margin-top: 20px
     text-transform: uppercase
+    transition: .15s all ease-in-out
+    &:hover
+      color: $green
+      border: 2px solid white
+      background: white
 
 .milli
   background: $milli-bg
@@ -157,6 +181,9 @@ header
   a
     color: $green
     text-decoration: underline
+    transition: .15s all ease-in-out
+    &:hover
+      color: white
 
 footer
   width: 100vw
@@ -177,6 +204,7 @@ footer
       margin: 0
       li
         margin: 10px 0
+        cursor: pointer
         a
           color: inherit
           &:hover
