@@ -1,0 +1,101 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+* {
+  margin: 0px; }
+
+body {
+  font-family: "Lato"; }
+  body h1, body h2, body h3, body h4, body h5, body h6 {
+    font-weight: 400; }
+
+nav {
+  height: 70px;
+  top: 0;
+  z-index: 2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 20px; }
+  nav span {
+    color: #ccc;
+    font-size: 16px; }
+  nav strong {
+    font-weight: 700; }
+  nav .brand {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1; }
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px; }
+  nav .signin {
+    border: 2px solid white;
+    padding: 10px 40px;
+    border-radius: 60px; }
+
+header {
+  z-index: -1;
+  margin-top: -70px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 75vh;
+  width: 100vw;
+  background-image: url(../img/ny-filtered.jpg);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  color: white;
+  text-align: center; }
+
+.why {
+  height: calc(100vh - 50px);
+  margin-top: calc(75vh - 70px);
+  padding-top: 50px;
+  text-align: center;
+  background: peachpuff; }
+  .why h2 {
+    padding-bottom: 10px; }
+  .why .reasons {
+    padding-top: 60px;
+    width: 100vw;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap; }
+    .why .reasons .img {
+      height: 80px;
+      width: 785px;
+      background-image: url(../img/reasons.png);
+      background-color: white;
+      background-size: contain;
+      background-repeat: no-repeat; }
+    .why .reasons .reason h4 {
+      padding-bottom: 10px; }

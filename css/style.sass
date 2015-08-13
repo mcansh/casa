@@ -1,0 +1,76 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700)
+
+*
+  margin: 0px
+
+body
+  font-family: "Lato"
+  h1,h2,h3,h4,h5,h6
+    font-weight: 400
+
+nav
+  height: 70px
+  top: 0
+  z-index: 2
+  display: flex
+  justify-content: center
+  align-items: center
+  padding: 0 20px
+  span
+    color: #ccc
+    font-size: 16px
+  strong
+    font-weight: 700
+  .brand
+    flex-grow: 1
+  a
+    color: white
+    text-decoration: none
+    margin: 0 10px
+  .signin
+    border: 2px solid white
+    padding: 10px 40px
+    border-radius: 60px
+
+header
+  z-index: -1
+  margin-top: -70px
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  height: 75vh
+  width: 100vw
+  background:
+    image: url(../img/ny-filtered.jpg)
+    size: cover
+    position: center
+  position: absolute
+  color: white
+  text-align: center
+
+.why
+  height: calc(100vh - 50px)
+  margin-top: calc(75vh - 70px)
+  padding-top: 50px
+  text-align: center
+  background: peachpuff
+  h2
+    padding-bottom: 10px
+
+  .reasons
+    padding-top: 60px
+    width: 100vw
+    display: flex
+    flex-flow: row nowrap
+    .img
+      height: 80px
+      width: 785px
+      background:
+        image: url(../img/reasons.png)
+        color: white
+        size: contain
+        repeat: no-repeat
+    .reason
+      h4
+        padding-bottom: 10px
