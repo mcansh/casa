@@ -1,17 +1,14 @@
+@import "media"
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700)
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css)
-
-$green: #6BC281
-$background: #F9FAFB
-$milli-bg: #2B2C2D
+@import "colors"
 
 *
   margin: 0px
 
 body
-  font-family: "Lato"
+  font-family: "Lato", Helvetica, Arial, sans-serif
   width: 100vw
-  overflow-x: hidden
   h1,h2,h3,h4,h5,h6
     font-weight: 400
 a
@@ -186,6 +183,7 @@ header
       color: white
 
 footer
+  display: none
   width: 100vw
   margin: 20px 0 20px 60px
   .top
