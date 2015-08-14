@@ -54,40 +54,24 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/css\/media.sass": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 2,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/media.sass",
-		"outputAbbreviatedPath": "\/css\/media.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 0,
-		"useLibsass": false
-		},
-	"\/css\/style.css": {
+	"\/css\/media.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/style.css",
+		"inputAbbreviatedPath": "\/css\/media.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/style.sass": {
+	"\/css\/media.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/style.sass",
-		"outputAbbreviatedPath": "\/css\/style.css",
+		"inputAbbreviatedPath": "\/css\/media.sass",
+		"outputAbbreviatedPath": "\/css\/media.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -99,7 +83,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 151325,
+		"initialSize": 147467,
 		"inputAbbreviatedPath": "\/img\/analytics.png",
 		"outputAbbreviatedPath": "\/img\/analytics.png",
 		"outputPathIsOutsideProject": 0,
@@ -138,6 +122,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/index.jade": {
 		"compileDebug": 1,
