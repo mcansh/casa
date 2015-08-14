@@ -99,6 +99,7 @@ section
   padding: 20px 0
 
 .why
+  margin-top: 76px
   .reasons
     @extend section
     .reason
@@ -215,7 +216,7 @@ footer
 
 @media (min-width: 500px)
   nav
-    margin: 0 20px
+    padding: 0 20px
     flex-direction: row
     text-align: left
     align-items: center
@@ -237,6 +238,8 @@ footer
       transition: .15s all ease-in-out
       color: white
       margin-right: 40px
+      &:hover
+        border-color: $milli-bg
 
 @media (min-width: 666px)
   .why

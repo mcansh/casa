@@ -1,0 +1,1 @@
+$(document).ready(function(){var o=0,c=$("#why"),n=c.offset();$(document).scroll(function(){o=$(this).scrollTop(),o>n.top?$("nav").css("background-color","#6BC281"):$("nav").css("background-color","transparent")})});

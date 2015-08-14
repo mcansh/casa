@@ -148,20 +148,22 @@ section, .why .reasons, .why .reasons .reason {
           align-items: center;
   padding: 20px 0; }
 
-.why .reasons .reason {
-  margin: 0 40px; }
-  .why .reasons .reason h4 {
-    font-weight: 700; }
-  .why .reasons .reason p {
-    color: #666;
-    margin-top: 10px; }
-  .why .reasons .reason .fa {
-    border: 2px solid #6BC281;
-    color: #6BC281;
-    border-radius: 50%;
-    padding: 20px;
-    font-size: 2em;
-    margin-bottom: 10px; }
+.why {
+  margin-top: 76px; }
+  .why .reasons .reason {
+    margin: 0 40px; }
+    .why .reasons .reason h4 {
+      font-weight: 700; }
+    .why .reasons .reason p {
+      color: #666;
+      margin-top: 10px; }
+    .why .reasons .reason .fa {
+      border: 2px solid #6BC281;
+      color: #6BC281;
+      border-radius: 50%;
+      padding: 20px;
+      font-size: 2em;
+      margin-bottom: 10px; }
 
 .analytics {
   background-color: #F9FAFB;
@@ -269,7 +271,7 @@ footer {
 
 @media (min-width: 500px) {
   nav {
-    margin: 0 20px;
+    padding: 0 20px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -304,7 +306,9 @@ footer {
       -webkit-transition: 0.15s all ease-in-out;
               transition: 0.15s all ease-in-out;
       color: white;
-      margin-right: 40px; } }
+      margin-right: 40px; }
+      nav .signin:hover {
+        border-color: #2B2C2D; } }
 @media (min-width: 666px) {
   .why .reasons {
     -webkit-box-orient: horizontal;
