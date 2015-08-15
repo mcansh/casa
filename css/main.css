@@ -205,6 +205,10 @@ section, .why .reasons, .why .reasons .reason {
     background: #6BC281;
     border-color: #6BC281;
     margin-top: 50px; }
+    .letsgo .btn:hover {
+      color: #6BC281;
+      background: white;
+      border-color: white; }
 
 .milli {
   background: #2B2C2D;
