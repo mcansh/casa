@@ -351,6 +351,11 @@ footer {
         border-color: #2B2C2D; }
 
   footer .top {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100vw;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -360,16 +365,8 @@ footer {
     -webkit-align-items: flex-start;
         -ms-flex-align: start;
             align-items: flex-start; }
-    footer .top .col-1 {
-      -webkit-box-flex: 1;
-      -webkit-flex-grow: 1;
-          -ms-flex-positive: 1;
-              flex-grow: 1;
-      width: auto; }
-    footer .top .col-2 {
-      width: 40%; }
-      footer .top .col-2:last-child {
-        width: auto; } }
+    footer .top .col-2:last-child {
+      margin: 0; } }
 @media (min-width: 666px) {
   .why .reasons {
     -webkit-box-orient: horizontal;
