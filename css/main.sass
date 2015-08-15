@@ -20,19 +20,20 @@ body
   align-items: center
   height: 75px
   background: $green
-  .brand
+  .mobile-brand
     flex-grow: 1
     padding-left: 20px
     a
       color: white
     span
       color: #ccc
-  .toggle
+  #toggle
     margin-right: 20px
     font-size: 1.5em
     color: black
-nav
-  display: none !important
+nav.is-open + header
+  padding-top: 20px
+nav.is-open
   background: $green
   width: 100vw
   display: flex
@@ -40,8 +41,10 @@ nav
   justify-content: center
   text-align: center
   font-size: 18px
-  position: absolute
-  padding: 10px 0
+  position: fixed
+  top: 70px
+  transition: .35s all ease-in-out
+
   a
     margin: 10px
     color: white
