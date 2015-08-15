@@ -234,6 +234,8 @@ footer {
         font-weight: 700; }
       footer .top ul li {
         margin-bottom: 5px; }
+        footer .top ul li a {
+          color: black; }
     footer .top .col-1 {
       display: -webkit-box;
       display: -webkit-flex;
