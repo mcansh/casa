@@ -245,7 +245,9 @@ footer {
               flex: 1;
       margin-bottom: 20px; }
     footer .top .col-2 {
-      width: 33%; }
+      width: 40%; }
+      footer .top .col-2:last-child {
+        width: auto; }
   footer .bottom {
     margin-top: 10px;
     display: -webkit-box;
@@ -321,4 +323,13 @@ footer {
         -ms-flex-direction: row;
             flex-direction: row; }
     .why .reasons .reason {
-      margin: 0; } }
+      margin: 0; }
+
+  .analytics {
+    display: block; }
+    .analytics h2, .analytics h3 {
+      text-align: left;
+      margin-left: 60px;
+      max-width: 400px; }
+    .analytics .btn {
+      margin-left: 60px; } }
