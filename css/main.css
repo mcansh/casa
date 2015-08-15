@@ -4,7 +4,9 @@
   margin: 0; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  -webkit-transition: 0.15s all ease-in-out;
+          transition: 0.15s all ease-in-out; }
 
 body {
   font-family: "Lato", Helvetica, Arial, sans-serif; }
@@ -126,7 +128,9 @@ header {
     border-color: #6BC281;
     text-transform: uppercase; }
     header .btn:hover {
-      border-color: white; }
+      border-color: white;
+      background: white;
+      color: #6BC281; }
 
 section, .why .reasons, .why .reasons .reason {
   display: -webkit-box;
@@ -240,6 +244,8 @@ footer {
         margin-bottom: 5px; }
         footer .top ul li a {
           color: black; }
+          footer .top ul li a:hover {
+            color: #6BC281; }
     footer .top .col-1 {
       display: -webkit-box;
       display: -webkit-flex;
@@ -307,9 +313,7 @@ footer {
       margin-bottom: 0; }
     nav a {
       color: white;
-      margin: 0 10px;
-      -webkit-transition: 0.15s all ease-in-out;
-              transition: 0.15s all ease-in-out; }
+      margin: 0 10px; }
       nav a:hover {
         color: #2B2C2D; }
     nav .signin {
