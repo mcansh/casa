@@ -316,6 +316,8 @@ footer {
           -ms-flex-positive: 1;
               flex-grow: 1;
       margin-bottom: 0; }
+      nav .brand span {
+        color: #ccc; }
     nav a {
       color: white;
       margin: 0 10px; }
