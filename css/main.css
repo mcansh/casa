@@ -264,7 +264,15 @@ footer {
       text-align: left; }
 
 @media (min-width: 500px) {
+  .navigation {
+    display: none; }
+
   nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    background: #6BC281;
     padding: 0 20px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -281,8 +289,7 @@ footer {
         -ms-flex-pack: start;
             justify-content: flex-start;
     height: 75px;
-    font-size: 16px;
-    background: none; }
+    font-size: 16px; }
     nav .brand {
       -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
@@ -290,17 +297,19 @@ footer {
               flex-grow: 1;
       margin-bottom: 0; }
     nav a {
-      margin: 0 10px; }
-      nav a:nth-child(2) {
-        margin-left: 0; }
+      color: white;
+      margin: 0 10px;
+      -webkit-transition: 0.15s all ease-in-out;
+              transition: 0.15s all ease-in-out; }
+      nav a:hover {
+        color: #2B2C2D; }
     nav .signin {
       border: 2px solid white;
       padding: 10px 40px;
       border-radius: 60px;
       -webkit-transition: 0.15s all ease-in-out;
               transition: 0.15s all ease-in-out;
-      color: white;
-      margin-right: 40px; }
+      color: white; }
       nav .signin:hover {
         border-color: #2B2C2D; } }
 @media (min-width: 666px) {
