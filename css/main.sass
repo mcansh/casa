@@ -13,30 +13,26 @@ body
     font-weight: 400
     text-align: center
     margin: 0 30px
-
-.automagical
-  display: none !important
-  position: absolute
-  top: 13px
-  left: -10px
-  right: 0
-  width: 100vw
+.navigation
+  position: fixed
   display: flex
-  flex-direction: row
+  width: 100vw
   align-items: center
-  margin: 0
-  a
+  height: 75px
+  background: $green
+  .brand
     flex-grow: 1
-    margin-left: 30px
-    color: white
+    padding-left: 20px
+    a
+      color: white
     span
-      font-size: .8em
       color: #ccc
-  .fa
+  .toggle
+    margin-right: 20px
     font-size: 1.5em
-    +size(25px)
-    margin-right: 30px
+    color: black
 nav
+  display: none !important
   background: $green
   width: 100vw
   display: flex
@@ -44,8 +40,8 @@ nav
   justify-content: center
   text-align: center
   font-size: 18px
-  position: fixed
-  top: 0
+  position: absolute
+  padding: 10px 0
   a
     margin: 10px
     color: white
@@ -99,7 +95,6 @@ section
   padding: 20px 0
 
 .why
-  margin-top: 76px
   .reasons
     @extend section
     .reason
@@ -202,18 +197,6 @@ footer
       flex-grow: 1
       text-align: left
 
-
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width: 500px)
   nav
     padding: 0 20px
@@ -245,3 +228,5 @@ footer
   .why
     .reasons
       flex-direction: row
+      .reason
+        margin: 0

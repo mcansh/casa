@@ -12,78 +12,80 @@ html
     link(rel="apple-touch-icon" href="img/apple-touch-icon.png")
     link(rel="shortcut icon" href="img/favicon.png")
   body
-    .automagical
-      a(href="") <strong>Casa</strong> <span>BETA</span>
-      .menu
-        i.fa.fa-bars
-    nav
-      .brand
-        a(href="") <strong>Casa</strong> <span>BETA</span>
-      a(href="#") Homes
-      a(href="#") Rentals
-      a(href="#") Mortgages
-      a.signin.btn(href="#") Sign In
-    header#top
-      h1 Find that place you can call home.
-      h2 Start searching for your dream home or apartment with our state of the art search tools.
-      a.btn(href="") Let's Go
+    .container
+      .navigation
+        .brand
+          a(href="") <strong>Casa</strong> <span>BETA</span>
+        a.toggle(href="")
+          i.fa.fa-bars
+      nav
+        .brand
+          a(href="") <strong>Casa</strong> <span>BETA</span>
+        a(href="#") Homes
+        a(href="#") Rentals
+        a(href="#") Mortgages
+        a.signin.btn(href="#") Sign In
+      header#top
+        h1 Find that place you can call home.
+        h2 Start searching for your dream home or apartment with our state of the art search tools.
+        a.btn(href="") Let's Go
+        
+      section.why#why
+        h2 Why find your next home with Casa?
+        h3 We know there's lots of places to find a new home. Here's why you should find one here.
+        .reasons
+          .reason
+            i.fa.fa-list
+            h4 Most Listings
+            p We have the largest listing database in the world, and our feed is the fastest to recieve new listings.
+          .reason
+            i.fa.fa-search
+            h4 Precise Filtering
+            p Our precise filtering system helps you find the perfect home that's right for you.
+          .reason
+            i.fa.fa-comment
+            h4 Expert Advice
+            p Financial professionals are available 24/7 to answer any questions or concerns you may have.
+            
+      section.analytics
+        h2 Real time analytics.
+        h3 Our house value estimates are updated every day to provide the most up-to-date value on your current home.
+        a.btn(href="") Details
       
-    section.why#why
-      h2 Why find your next home with Casa?
-      h3 We know there's lots of places to find a new home. Here's why you should find one here.
-      .reasons
-        .reason
-          i.fa.fa-list
-          h4 Most Listings
-          p We have the largest listing database in the world, and our feed is the fastest to recieve new listings.
-        .reason
-          i.fa.fa-search
-          h4 Precise Filtering
-          p Our precise filtering system helps you find the perfect home that's right for you.
-        .reason
-          i.fa.fa-comment
-          h4 Expert Advice
-          p Financial professionals are available 24/7 to answer any questions or concerns you may have.
-          
-    section.analytics
-      h2 Real time analytics.
-      h3 Our house value estimates are updated every day to provide the most up-to-date value on your current home.
-      a.btn(href="") Details
-    
-    section.mission
-      h2 Our mission is simple.
-      h3 We strive every single day to provide the best experience for our customers. We know how stressful home buying can be, and we want to eliminate that stress by providing a tool that reassures our customers that they're making the right purchase.
+      section.mission
+        h2 Our mission is simple.
+        h3 We strive every single day to provide the best experience for our customers. We know how stressful home buying can be, and we want to eliminate that stress by providing a tool that reassures our customers that they're making the right purchase.
 
-    section.letsgo
-      h1 Let's buy a house together.
-      h3 Whether it's your first home, or your 5th, we'll always be here to help.
-      a.btn(href="") Let's Go
-      
-    section.milli
-      h3 Over <i>1.5 million</i> homes have been sold through Casa to date. <a href="">Learn more.</a>
-      
-    footer
-      .top
-        .col-1
-          ul
-            li Casa
-            li Homes
-            li Rentals
-            li Mortgages
-            li Sign in
-        .col-2
-          ul
-            li Support
-            li Help
-            li FAQ
-            li Contact us
-        .col-2
-          ul
-            li Contact Us
-            li Casa LLC<br>078 Fulton Ave.<br>Grand Rapids, MI 49501
-            li <a href="tel:616-777-7777">Tel: 616-777-7777</a>
-      .bottom
-        h1 Casa
-        p Copyright 2015 
+      section.letsgo
+        h1 Let's buy a house together.
+        h3 Whether it's your first home, or your 5th, we'll always be here to help.
+        a.btn(href="") Let's Go
+        
+      section.milli
+        h3 Over <i>1.5 million</i> homes have been sold through Casa to date. <a href="">Learn more.</a>
+        
+      footer
+        .top
+          .col-1
+            ul
+              li Casa
+              li Homes
+              li Rentals
+              li Mortgages
+              li Sign in
+          .col-2
+            ul
+              li Support
+              li Help
+              li FAQ
+              li Contact us
+          .col-2
+            ul
+              li Contact Us
+              li Casa LLC<br>078 Fulton Ave.<br>Grand Rapids, MI 49501
+              li <a href="tel:616-777-7777">Tel: 616-777-7777</a>
+        .bottom
+          h1 Casa
+          p Copyright 2015 
     script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js")
     script(src="js/myfunctions.js")

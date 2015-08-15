@@ -54,31 +54,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/css\/media.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/media.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/css\/media.sass": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 2,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/media.sass",
-		"outputAbbreviatedPath": "\/css\/media.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 0,
-		"useLibsass": false
-		},
 	"\/img\/analytics.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -147,8 +122,8 @@
 		},
 	"\/js\/myfunctions.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/js\/myfunctions.js",
 		"outputAbbreviatedPath": "\/js\/min\/myfunctions-min.js",
 		"outputPathIsOutsideProject": 0,
@@ -195,7 +170,7 @@
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
 	"displayValue": "casa - @tommysadlr",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_blue"
 	},
 "projectSettings": {
