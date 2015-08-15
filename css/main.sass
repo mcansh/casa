@@ -178,9 +178,12 @@ section
 
 footer
   margin: 20px
+  text-align: center
   .top
     display: flex
     border-bottom: 1px solid $milli-bg
+    flex-direction: column
+    align-items: center
     ul
       list-style: none
       padding: 0
@@ -195,12 +198,13 @@ footer
             color: $green
     .col-1
       display: flex
-      flex: 1
+      flex-direction: column
       margin-bottom: 20px
+      width: 100%
     .col-2
-      width: 40%
+      width: 100%
       &:last-child
-        width: auto
+        margin-top: 20px
   .bottom
     margin-top: 10px
     display: flex
@@ -241,6 +245,19 @@ footer
       color: white
       &:hover
         border-color: $milli-bg
+
+
+  footer
+    .top
+      flex-direction: row
+      align-items: flex-start
+      .col-1
+        flex-grow: 1
+        width: auto
+      .col-2
+        width: 40%
+        &:last-child
+          width: auto
 
 @media (min-width: 666px)
   .why
