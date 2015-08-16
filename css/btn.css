@@ -1,0 +1,7 @@
+.default-btn {
+  border: 2px solid white;
+  padding: 10px 40px;
+  border-radius: 60px;
+  -webkit-transition: 0.15s all ease-in-out;
+          transition: 0.15s all ease-in-out;
+  color: white; }

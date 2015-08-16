@@ -1,68 +1,27 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css)
+@import "navigation"
 @import "colors"
 @import "bourbon"
 @import "gotham"
+@import "btn"
 
 *
   margin: 0
-a
-  text-decoration: none
-  transition: .15s all ease-in-out
+
+html,
+body
+  width: 100vw
+  overflow-x: hidden
+
 body
   font-family: "Gotham", Helvetica, Arial, sans-serif
   h1,h2,h3,h4,h5,h6,p
     font-weight: 400
     text-align: center
     margin: 0 30px
-.navigation
-  position: fixed
-  display: flex
-  width: 100vw
-  align-items: center
-  height: 75px
-  background: $green
-  .mobile-brand
-    flex-grow: 1
-    padding-left: 20px
-    a
-      color: white
-    span
-      color: #ccc
-  #toggle
-    margin-right: 20px
-    font-size: 1.5em
-    color: black
-nav
-  display: none
-nav.is-open
-  background: $green
-  width: 100vw
-  display: flex
-  flex-direction: column
-  justify-content: center
-  text-align: center
-  font-size: 18px
-  position: fixed
-  top: 70px
-  transition: .35s all ease-in-out
-
-  a
-    margin: 10px
-    color: white
-    transition: .15s all ease-in-out
-    &:hover
-      color: $milli-bg
-  span
-    font-size: .8em
-    color: #ccc
-  .brand
-    flex-grow: 0
-    margin-bottom: 10px
-    display: none
-    a
-      margin: 0
-      &:hover
-        color: white
+a
+  text-decoration: none
+  transition: .15s all ease-in-out
 
 .default-btn
   border: 2px solid white
@@ -70,6 +29,7 @@ nav.is-open
   border-radius: 60px
   transition: .15s all ease-in-out
   color: white
+
 
 header
   height: 100vh
@@ -161,10 +121,11 @@ section
     background: $green
     border-color: $green
     margin-top: 50px
+    text-transform: uppercase
     &:hover
-      color: $green
       background: white
       border-color: white
+      color: $green
 
 .milli
   background: $milli-bg
@@ -214,6 +175,7 @@ footer
       flex-grow: 1
       text-align: left
 
+
 @media (min-width: 600px) and (max-width: 800px) and (max-height: 500px)
   .analytics
     height: calc(100vh - 100px)
@@ -223,7 +185,6 @@ footer
     display: none
   nav
     display: flex
-    background: $green
     flex-direction: row
     text-align: left
     align-items: center
@@ -236,6 +197,7 @@ footer
       display: flex
       flex-grow: 1
       margin-bottom: 0
+      padding-left: 30px
       span
         color: #ccc
     a
@@ -251,6 +213,8 @@ footer
       color: white
       &:hover
         border-color: $milli-bg
+    .links
+      padding-right: 30px
 
 
   footer

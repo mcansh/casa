@@ -1,0 +1,56 @@
+@import "colors"
+
+.navigation
+  position: fixed
+  display: flex
+  width: 100vw
+  align-items: center
+  height: 75px
+  background: $green
+  .mobile-brand
+    flex-grow: 1
+    padding-left: 20px
+    a
+      color: white
+    span
+      color: #ccc
+  #toggle
+    margin-right: 20px
+    font-size: 1.5em
+    color: black
+nav
+  display: none
+.scroll
+  background: $green !important
+nav.is-open
+  background: $green
+  width: 100vw
+  display: flex
+  flex-direction: column
+  justify-content: center
+  text-align: center
+  font-size: 18px
+  position: fixed
+  top: 70px
+  transition: .35s all ease-in-out
+  .links
+    display: flex
+    flex-direction: column
+    justify-content: center
+  a
+    margin: 10px
+    color: white
+    transition: .15s all ease-in-out
+    &:hover
+      color: $milli-bg
+  span
+    font-size: .8em
+    color: #ccc
+  .brand
+    flex-grow: 0
+    margin-bottom: 10px
+    display: none
+    a
+      margin: 0
+      &:hover
+        color: white
