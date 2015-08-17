@@ -5,11 +5,19 @@
     <desc>Created with Sketch Beta.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="website_icon" sketch:type="MSArtboardGroup">
-            <rect id="Rectangle-1" fill="#000000" sketch:type="MSShapeGroup" x="0" y="0" width="1024" height="1024"></rect>
-            <text id="Casa" sketch:type="MSTextLayer" font-family="Lato" font-size="288" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
-                <tspan x="205.348" y="624">Casa</tspan>
-            </text>
+        <g id="website_icon" sketch:type="MSLayerGroup">
+            <g id="Page-1">
+                <g id="website_icon">
+                    <g id="Page-1">
+                        <g id="website_icon">
+                            <rect id="Rectangle-1" fill="#000000" sketch:type="MSShapeGroup" x="0" y="0" width="1024" height="1024"></rect>
+                            <text id="Casa" fill="#FFFFFF" sketch:type="MSTextLayer" font-family="Lato" font-size="288" font-weight="normal">
+                                <tspan x="205" y="624">Casa</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
         </g>
     </g>
 </svg>
