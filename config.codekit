@@ -13,31 +13,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/css\/btn.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/btn.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/css\/btn.sass": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 2,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/btn.sass",
-		"outputAbbreviatedPath": "\/css\/btn.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 0,
-		"useLibsass": false
-		},
 	"\/css\/colors.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -111,22 +86,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/css\/sections.sass": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 2,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/sections.sass",
-		"outputAbbreviatedPath": "\/css\/sections.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 0,
-		"useLibsass": false
-		},
 	"\/img\/analytics.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -153,12 +112,12 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 39989,
+		"initialSize": 13485,
 		"inputAbbreviatedPath": "\/img\/favicon.png",
 		"outputAbbreviatedPath": "\/img\/favicon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/ny-filtered.jpg": {
 		"fileType": 16384,
@@ -253,7 +212,7 @@
 	"bowerAbbreviatedPath": "",
 	"displayValue": "casa - @tommysadlr",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "brackets_blue"
+	"iconImageName": "\/img\/favicon.png"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,
