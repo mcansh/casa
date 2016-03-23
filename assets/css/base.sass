@@ -1,0 +1,40 @@
+*
+  margin: 0
+
+body
+  font-family: "Gotham"
+  background-color: $background
+  text-align: center
+
+  h1,h2,h3,h4,h5,h6
+    font-weight: 400
+
+  h1
+    font-size: 3em
+    margin-bottom: 20px
+  h2
+    font-size: 26px
+  p
+    color: $that_one_gray
+    font-size: 20px
+a
+  text-decoration: none
+  color: white
+  +transition()
+  &:hover
+    color: $green
+
+.blur
+  background-color: $blur
+  -webkit-backdrop-filter: blur(10px)
+
+.btn
+  background: $green
+  color: $background
+  padding: 15px 45px
+  border-radius: 40px
+  +transition()
+  &:hover
+    background: rgba(0,0,0,0)
+    border: 1px solid $green
+    color: $green

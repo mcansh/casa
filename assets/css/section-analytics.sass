@@ -1,0 +1,32 @@
+section#analytics
+  height: 40vh
+  background:
+    image: url(../img/analytics.png)
+    color: $background
+    size: contain
+    repeat: no-repeat
+    position: bottom left
+  display: flex
+  flex-direction: column
+  align-items: flex-start
+  padding-left: 5em
+  margin-top: 2em
+  @media (max-width: 700px)
+    padding: 0 2em
+    text-align: center
+    align-items: center
+  h2
+    margin-bottom: 25px
+  p
+    max-width: 550px
+    text-align: left
+    line-height: 1.3em
+  .btn
+    background: rgba(0,0,0,0)
+    border: 1px solid $green
+    color: $green
+    margin-top: 35px
+    +transition()
+    &:hover
+      background: $green
+      color: $background

@@ -1,0 +1,24 @@
+header
+  height: 85vh
+  background:
+    color: black
+    image: url(../img/header1.jpg)
+    size: cover
+    position: top center
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  color: white
+  @media (max-width: 450px)
+    height: 100vh
+
+  .btn
+    margin-top: 40px
+    text-transform: uppercase
+    font-weight: 500
+    +transition()
+    &:hover
+      background: $background
+      color: $green
+      border: none

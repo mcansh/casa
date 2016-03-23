@@ -2,172 +2,53 @@
 @import "bourbon"
 @import "hamburgers"
 
-$green:       #6BC281
-$background:  #F9FAFB
-$milli-bg:    #2B2C2D
-$blur:        rgba($green, 0.5)
+@import "vars"
 
+@import "base"
 
-*
-  margin: 0
+@import "nav"
 
-body
-  font-family: "Gotham"
-  background-color: $background
-  text-align: center
-a
-  text-decoration: none
-  color: inherit
-  +transition()
-  &:hover
-    color: $green
-
-.blur
-  background-color: $blur
-  -webkit-backdrop-filter: blur(10px)
-
-.btn
-  background: $green
-  color: $background
-  padding: 15px 45px
-  border-radius: 40px
-  +transition()
-  &:hover
-    background: $background
-    color: $green
-
-nav
-  position: fixed
-  width: 100vw
-  height: 6.5em
-  display: flex
-  align-items: center
-  +transition()
-  @media (max-width: 700px)
-    height: 5em
-    background-color: $blur
-    -webkit-backdrop-filter: blur(10px)
-
-  .main
-    display: flex
-    align-items: center
-    text-align: left
-    flex-grow: 1
-    h1
-      flex-grow: 1
-      color: white
-      font-weight: 500 !important
-      margin-left: 6em
-      span
-        margin-left: 5px
-        font-size: 16px
-        color: #999
-    @media (max-width: 700px)
-      position: absolute
-      width: 100vw
-      h1
-        padding: 0
-        margin: 27px 20px
-
-  .container
-    display: none
-    @media (max-width: 700px)
-      display: flex
-      position: absolute
-      right: 0
-      top: 0
-      margin: 12px 0
-  .links
-    display: flex
-    align-items: center
-    margin-right: 6em
-    @media (max-width: 700px)
-      position: absolute
-      top: -10em
-    a
-      margin: 0 25px
-      color: white
-      +transition()
-      &:hover
-        color: $green
-    .signin
-      margin-right: 27px
-      background-color: rgba(0,0,0,0)
-      border: 1px solid $background
-      &:hover
-        background: $green
-        border-color: $green
-        color: $background
-
-nav.is-open
-  height: 100vh
-  .main
-    height: 5em
-
-nav.scrolled
-  height: 5em
-
-.links.is-open
-  top: 5em
-  display: flex
-  flex-direction: column
-  justify-content: flex-start
-  align-items: center
-  width: 100vw
-  height: 100vh
-  a
-    margin: 15px 0
-  .signin
-    background: $background
-    color: $green
-
-
-header
-  height: 85vh
-  background:
-    color: black
-    image: url(../img/header1.jpg)
-    size: cover
-    position: top center
-  display: flex
-  justify-content: center
-  align-items: center
-  flex-direction: column
-  color: white
-  @media (max-width: 450px)
-    height: 100vh
-  h1,h3
-    font-weight: 400
-
-  h1
-    font-size: 3em
-    margin-bottom: 20px
-
-  .btn
-    margin-top: 40px
-    text-transform: uppercase
-    font-weight: 500
-    +transition()
-    &:hover
-      background: $background
-      color: $green
+@import "header"
 
 // section#why
-section#analytics
-  height: 40vh
-  background: pink
-  display: flex
-  flex-direction: column
-  width: 100vw
+// @import "section-why"
 
-// section#mission
+@import "section-analytics"
 
-section#leggo
-  height: 50vh
-  background:
-    image: url(../img/header1.jpg)
-    size: cover
-    position: bottom
+@import "section-mission"
 
-// .homes-sold
-// footer
+@import "section-leggo"
+
+@import "section-homes-sold"
+
+// @import "footer"
+footer
+  .top
+    display: flex
+    flex-direction: row
+    justify-content: center
+    margin: 0 auto
+    border-bottom: 1px solid lighten($dark-background, 75)
+    margin: 0 5em
+    padding: 10px 0
+    ul
+      list-style-type: none
+      padding-left: 0
+      flex-grow: 1
+      text-align: left
+      &:nth-child(2)
+        flex-grow: 3
+      li
+        margin: 10px 0
+      li:first-child
+        font-weight: 500
+  a,p
+    color: black
+  .bottom
+    display: flex
+    text-align: left
+    margin: 0 5em
+    p:first-child
+      flex-grow: 1
+      font-weight: 500
+    padding: 10px 0
