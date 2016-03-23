@@ -1,43 +1,16 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19051",
+"creatorBuild": "19115",
 "files": {
-	"\/Casa.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3.1907e+06,
-		"inputAbbreviatedPath": "\/Casa.png",
-		"outputAbbreviatedPath": "\/Casa.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/css\/colors.sass": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 2,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/colors.sass",
-		"outputAbbreviatedPath": "\/css\/colors.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 0,
-		"useLibsass": false
-		},
-	"\/css\/gotham.scss": {
+	"\/assets\/css\/gotham.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/gotham.scss",
-		"outputAbbreviatedPath": "\/css\/gotham.css",
+		"inputAbbreviatedPath": "\/assets\/css\/gotham.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/gotham.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -45,24 +18,40 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/css\/main.css": {
+	"\/assets\/css\/hamburgers.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/hamburgers.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/hamburgers.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/css\/style.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/main.css",
+		"inputAbbreviatedPath": "\/assets\/css\/style.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/main.sass": {
+	"\/assets\/css\/style.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/main.sass",
-		"outputAbbreviatedPath": "\/css\/main.css",
+		"inputAbbreviatedPath": "\/assets\/css\/style.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/style.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -70,62 +59,90 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/css\/navigation.sass": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 2,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/navigation.sass",
-		"outputAbbreviatedPath": "\/css\/navigation.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 0,
-		"useLibsass": false
-		},
-	"\/img\/analytics.png": {
+	"\/assets\/img\/analytics.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 147467,
-		"inputAbbreviatedPath": "\/img\/analytics.png",
-		"outputAbbreviatedPath": "\/img\/analytics.png",
+		"inputAbbreviatedPath": "\/assets\/img\/analytics.png",
+		"outputAbbreviatedPath": "\/assets\/img\/analytics.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/apple-touch-icon.png": {
+	"\/assets\/img\/apple-touch-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 36934,
-		"inputAbbreviatedPath": "\/img\/apple-touch-icon.png",
-		"outputAbbreviatedPath": "\/img\/apple-touch-icon.png",
+		"initialSize": 40164,
+		"inputAbbreviatedPath": "\/assets\/img\/apple-touch-icon.png",
+		"outputAbbreviatedPath": "\/assets\/img\/apple-touch-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/favicon.png": {
+	"\/assets\/img\/favicon.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 13485,
-		"inputAbbreviatedPath": "\/img\/favicon.png",
-		"outputAbbreviatedPath": "\/img\/favicon.png",
+		"initialSize": 40164,
+		"inputAbbreviatedPath": "\/assets\/img\/favicon.png",
+		"outputAbbreviatedPath": "\/assets\/img\/favicon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/img\/ny-filtered.jpg": {
+	"\/assets\/img\/header.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3.55153e+06,
-		"inputAbbreviatedPath": "\/img\/ny-filtered.jpg",
-		"outputAbbreviatedPath": "\/img\/ny-filtered.jpg",
+		"initialSize": 481945,
+		"inputAbbreviatedPath": "\/assets\/img\/header.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/header.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/header1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.15577e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/header1.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/header1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/js\/min\/myfunction-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/min\/myfunction-min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/min\/myfunction-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/myfunction.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/myfunction.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/myfunction-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Casa.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.1907e+06,
+		"inputAbbreviatedPath": "\/Casa.png",
+		"outputAbbreviatedPath": "\/Casa.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -149,37 +166,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
-		},
-	"\/js\/min\/myfunctions-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/min\/myfunctions-min.js",
-		"outputAbbreviatedPath": "\/js\/min\/min\/myfunctions-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/myfunctions.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/js\/myfunctions.js",
-		"outputAbbreviatedPath": "\/js\/min\/myfunctions-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/README.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/README.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/README.md": {
 		"criticStyle": 0,
@@ -210,9 +196,9 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "casa - @tommysadlr",
-	"displayValueWasSetByUser": 1,
-	"iconImageName": "\/img\/favicon.png"
+	"displayValue": "casa-NEW",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "harddrive_gray"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,
@@ -305,8 +291,16 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"no_plusplus": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"no_stand_alone_at": {
@@ -315,6 +309,10 @@
 			},
 		"no_tabs": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"no_throwing_strings": {
@@ -831,7 +829,9 @@
 	"typescriptAutoOutputPathStyle": 2,
 	"typescriptCreateDeclarationFile": 0,
 	"typescriptCreateSourceMap": 0,
+	"typescriptJSXMode": 0,
 	"typescriptMinifyOutput": 0,
+	"typescriptModuleResolutionType": 0,
 	"typescriptModuleType": 0,
 	"typescriptNoImplicitAny": 0,
 	"typescriptPreserveConstEnums": 0,
