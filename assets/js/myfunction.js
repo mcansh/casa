@@ -3,7 +3,7 @@
 var $nav = $("nav");
 // blur the nav
 // manually becuase of a webkit bug when using classes
-if ($(window).width() > 700) {
+if ($(window).width() >= 700) {
   $(function() {
     $(window).scroll(function() {
         var $scroll = $(window).scrollTop();
